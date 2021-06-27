@@ -1,0 +1,75 @@
+<html>
+<head>
+<br><br>
+    <title>ContactUs</title>
+    <meta charset='UTF-8' />
+<style>
+    body{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+background:url(https://m3lumh.com/wp-content/uploads/2020/02/1-38.jpg);
+background-size:cover;
+}
+
+
+.script {
+    width: 40%; height: 500px; background: #f4f4f4; margin: auto; min-width: fit-content;
+    border-radius: 10px; box-shadow: 0px 2px 2px #000;
+}
+
+     
+input, textarea, select {
+    font: normal 1em/1.4em Arial, Helvetica, sans-serif;
+}
+input[type=text], input[type=password], textarea {
+    background: #e6e6e6;
+    border: solid 1px #efefef;
+    padding: 5px 7px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+    border: solid 1px #16498C;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 1px 4px #c5c5a2
+    -webkit-box-shadow: 0 1px 4px #c5c5a2;
+    -moz-box-shadow: 0 1px 4px #c5c5a2;
+}
+
+.ok {
+  background: #3bff9f;
+  text-align: center;
+  padding: 30px;
+  color: #ff2626; margin: auto;  width: 20%; 
+}
+
+.no {
+    background:#ffdffd;
+    text-align:center;
+    padding: 20px;
+    color:#000; margin: auto; width: 30%; font-size:18px;
+}
+</style>
+
+</head>
+<body>
+
+<div class='script'>
+<br /><br />
+  <center> <h1> تواصل معانا</h1>
+
+<form action='ContactUs.php' method='POST'>
+ <br /><input type="text"placeholder="الاسم"><br /><br />
+ <br /><input type="text"placeholder="الايميل"><br /><br />
+  <br/><input type="text"placeholder="عنوان الرساله"><br /><br /> 
+<br /> <textarea cols="40" name="الرساله"></textarea><br /><br />
+    <input type="submit" value="ارسال" name="ارسال" /><br />
+</form>
+</center>
+</div>
+
+</body>
+</html>
